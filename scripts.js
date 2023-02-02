@@ -18,20 +18,20 @@ const ButtonClick = (() => {
         }
     
         if(Temperature > 19 && Temperature <= 35){
-            Img.src = "./sol.png"
+            Img.src = "./assets/sol.png"
             Text.innerHTML = "Clima Ensolarado - Sol" 
             Umidade.innerHTML =  `Umidade: ${Math.floor(Math.random() * 9) + 5}%`
             
         }
         
         if(Temperature > 4 && Temperature <= 18){
-            Img.src = "./nuvens.png"
+            Img.src = "./assets/nuvens.png"
             Text.innerHTML = "Clima Ambiente - Nuvens" 
             Umidade.innerHTML = `Umidade: ${Math.floor(Math.random() * 10) + 18}%`
         }
     
         if(Temperature > -18 && Temperature < 3){
-            Img.src = "./neve.png"
+            Img.src = "./assets/neve.png"
             Text.innerHTML = "Clima Frio - Neve" 
             Umidade.innerHTML = `Umidade: ${Math.floor(Math.random() * 15) + 15}%`
         }
