@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    border: 0px;
+}
+
+/*SEU OSMAR PAI DA SERESTA, CANETA AZUL PAI DO BREGA*/
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("https://images.unsplash.com/photo-1502790671504-542ad42d5189?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY3NTI5MTc2OA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+
+.MainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.752);
+    border-radius: 40px;
+    width: 550px;
+    height: 400px;
+    padding-top: 20px;
+    padding: 25px;
+}
+
+header{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input{
+    border-radius: 40px;
+    padding: 15px 190px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: rgba(58, 57, 57, 0.559);
+    outline: 0px;
+    margin-right: 12px;
+}
+
+input::placeholder{
+    color: rgba(240, 255, 255, 0.722);
+}
+
+input:active{
+    background-color: rgba(58, 57, 57, 0.482);
+}
+
+button{
+    border-radius: 100%;
+    background-color: rgba(58, 57, 57, 0.655);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(58, 57, 57, 0.575);
+}
+
+button:active{
+    background-color: rgba(58, 57, 57, 0.425);
+}
+
+img{
+    size: 16px;
+    width: 30px;
+    height: 30px;
+    color: black;
+
+}
+
+.HeaderMain{
+    display: flex;
+}
+
+h2{
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.SecondMainSection{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+
+.ImgParagraph{
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Graus{
+    font-size: 25px;
+}
+
+.Umidade{
+    font-size: 16px;
+}
+
+/*SÓ ISSO MESMO*/
